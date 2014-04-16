@@ -5,8 +5,8 @@ import csv
 import re
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host='148.93.50.254'
-port=5432
+host=#'IP'
+port=#Port
 server_address = (host, port)
 print >>sys.stderr, 'starting up on %s port %s' % server_address
 sock.bind((host,port))
